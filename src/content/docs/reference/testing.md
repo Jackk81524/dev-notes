@@ -7,7 +7,9 @@ title: Software Testing
 # About Unit Testing
  
 Language Types
+
     - Object Oriented Programming
+
         - Support encapsulation, polymorphism, inheritance, sometimes reflection
         - Has objects as the "first class citizen"
         - Objects are a combination of data and the code that uses that data
@@ -17,7 +19,7 @@ Language Types
         - Data is immutable, so there are no "variables"
             - You cannot have a string later become an int
         - You cannot have a variable set equal to a function.
-    
+
 .NET History
     ○ 2002: .NET 1.0 was released
         § Prior to this, C++ and Visual Basic were standard for Windows programmers
