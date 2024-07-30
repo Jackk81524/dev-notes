@@ -12,7 +12,6 @@ title: Software Testing
             - Has objects as the "first class citizen"
             - Objects are a combination of data and the code that uses that data
         ○ Functional Languages
-            - Have functions of "first class citizens"
             - You construct solutions by combining functions
             - Data is immutable, so there are no "variables"
                 □ You cannot have a string later become an int
@@ -33,15 +32,15 @@ title: Software Testing
             - Prior to this, .NET would only run on windows
             - Then, Cloud Computing exploded
         ○ Shortly After: .NET Core, takes advantage of cloud sevicing
-        ○ .NET Framework is the older .NET. Moving to .NET Core
+        ○ .NET Framework is the older .NET. The goal is for everything to move to .NET Core
 
     .NET Core
-        ○ Not associated with any one provider. Can be on Microsoft, Linux, OS
+        ○ Not associated with any one provider. Can be on Microsoft, Linux, macOS
         ○ Compared to .NET Framework, which is only on Microsoft
             - The goal is to move away from this, and to move all to Core
         ○ .NET typically uses PascalCase and not CamelCase
 
-    .NET Coding
+    .NET Syntax and Other General Info
         ○ Class Labels
             - Public: Anything with reference can see it
             - Private: Not used much in .NET
@@ -55,7 +54,7 @@ title: Software Testing
             - Red: Always start with a meaningfully failing test.
                 □ Fail on assert
                 □ Start by hardcoding.
-            - Green: Write ridiculous (bad) code to get the test to pass.
+            - Green: Write imperfect code to get the test to pass.
                 □ Do not worry about good conventions at all just yet, just get green
                 □ If it takes longer than 2-3 minutes, then go back and rewrite test
             - Refactor: Start worrying about making it good.
@@ -64,7 +63,7 @@ title: Software Testing
             - #2: Reveals intention
             - #3: No duplication
             - #4: Fewest number of elements
-        ○ Test one thing at a time, or do best to do so
+        ○ Test one thing at a time
 
     Keyboard Shortcuts
         ○ Ctrl . In Visual Studio Provides error solutions
