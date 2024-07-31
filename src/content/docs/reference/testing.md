@@ -15,7 +15,7 @@ title: Software Testing
                 □ Do not worry about good conventions at all just yet, just get green
                 □ If it takes longer than 2-3 minutes, then go back and rewrite test
             - Refactor: Start worrying about making it good.
-        ○ Goal of code in order
+        ○ Goal of Your Code, in order (Not just Unit Testing)
             - #1: Passes the code
             - #2: Reveals intention
             - #3: No duplication
