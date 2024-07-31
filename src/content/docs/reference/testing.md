@@ -110,4 +110,5 @@ public class GettingSoftware
 ```
  
 Write what you understand about this code. What is Alba? Where did that come from? What is `Program`?
- 
+
+This code appears to be an asynchronous integration test that tests the functionality of the /api/software API endpoint. It is attempting to confirm that the Api returns a status code of 200 (Ok). It seems that Alba is a way for the system to actually test the functionality of the API, in conjunction with xUnit, rather than just mocking it. Program appears to be a method for the system to retrieve and actually run the API that you are attempting to test.
