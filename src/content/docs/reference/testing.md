@@ -5,7 +5,24 @@ title: Software Testing
 ---
  
 # About Unit Testing
- 
+    Test Driven Development
+        ○ Recommended to write tests as you go
+        ○ Red, Green, Refactor
+            - Red: Always start with a meaningfully failing test.
+                □ Fail on assert
+                □ Start by hardcoding.
+            - Green: Write imperfect code to get the test to pass.
+                □ Do not worry about good conventions at all just yet, just get green
+                □ If it takes longer than 2-3 minutes, then go back and rewrite test
+            - Refactor: Start worrying about making it good.
+        ○ Goal of code in order
+            - #1: Passes the code
+            - #2: Reveals intention
+            - #3: No duplication
+            - #4: Fewest number of elements
+        ○ Test one thing at a time
+
+# Other Notes
     Language Types
         ○ Object Oriented Programming
             - Support encapsulation, polymorphism, inheritance, sometimes reflection
@@ -48,22 +65,6 @@ title: Software Testing
         ○ Solution: Text file with information and config info about the project
             - Can have multiple projects within the same solution
 
-    Test Driven Development
-        ○ Recommended to write tests as you go
-        ○ Red, Green, Refactor
-            - Red: Always start with a meaningfully failing test.
-                □ Fail on assert
-                □ Start by hardcoding.
-            - Green: Write imperfect code to get the test to pass.
-                □ Do not worry about good conventions at all just yet, just get green
-                □ If it takes longer than 2-3 minutes, then go back and rewrite test
-            - Refactor: Start worrying about making it good.
-        ○ Goal of code in order
-            - #1: Passes the code
-            - #2: Reveals intention
-            - #3: No duplication
-            - #4: Fewest number of elements
-        ○ Test one thing at a time
 
     Keyboard Shortcuts
         ○ Ctrl . In Visual Studio Provides error solutions
