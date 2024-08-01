@@ -15,12 +15,26 @@ title: Software Testing
                 □ Do not worry about good conventions at all just yet, just get green
                 □ If it takes longer than 2-3 minutes, then go back and rewrite test
             - Refactor: Start worrying about making it good.
-        ○ Goal of Your Code, in order (Not just Unit Testing)
-            - #1: Passes the code
-            - #2: Reveals intention
-            - #3: No duplication
-            - #4: Fewest number of elements
-        ○ Test one thing at a time
+    Goal of Your Code, in order (Not just Unit Testing)
+        - #1: Passes the code
+        - #2: Reveals intention
+        - #3: No duplication
+        - #4: Fewest number of elements
+    ○ Test one thing at a time
+    
+    Unit Tests
+        - Testing the individual units of functionality within our system
+        - White box tests: They break encapsulation. They test how your code does things, not what it does
+        - Why do change implementation in our code:
+            □ We find better ways to do something: Better design, better performance, we identify "abstractions"
+            □ Upgrading the dependencies
+        - This lead to limitations, as when we change our code, the end to end tests may still work, which is the most important, unit tests may fail in large amounts
+            □ This is because even though implementation changes, the outcome stays the same
+            □ They need to be properly used in order to be efficient 
+    
+
+
+    
 
 # Other Notes
     Language Types
@@ -103,7 +117,7 @@ public class GettingSoftware
 
         });
  
- 
+
     }
 
 }
