@@ -31,6 +31,15 @@ title: Software Testing
         - This lead to limitations, as when we change our code, the end to end tests may still work, which is the most important, unit tests may fail in large amounts
             □ This is because even though implementation changes, the outcome stays the same
             □ They need to be properly used in order to be efficient 
+
+        - Unit tests at the minimum cannot access the :
+            ○ File system
+            ○ Database
+            ○ Network
+            ○ The Clock
+        - These things are external, and failures may be because of external factors, which defeats the purpose of unit testing
+        - They also change: Defeats the purpose of unit tests if what you are testing continuously changes.
+        
     
 
 
