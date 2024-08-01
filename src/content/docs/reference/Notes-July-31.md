@@ -4,7 +4,6 @@ title: July 31st Notes
 
 ---
  
-# About Unit Testing
 
     Testing Levels
         • Types of Software Processes
