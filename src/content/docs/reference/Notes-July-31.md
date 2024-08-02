@@ -1,10 +1,10 @@
 ---
 
-title: July 31st Notes
+title: Testing
 
 ---
- 
-
+    # July 31
+    
     Testing Levels
         • Types of Software Processes
             ○ Waterfall

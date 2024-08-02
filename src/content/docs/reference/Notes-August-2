@@ -1,0 +1,55 @@
+---
+
+title: Types, Stacks & Heaps, Databases
+
+---
+
+# August 2
+
+Type System
+    • .NET has fundamental types of data at the level of the common language runtime.
+    • "Value Types"
+        ○ Live and die by the stack
+            - At the end of running, they just pop off the stack
+        ○ They are defined in C# by creating structs
+        ○ Have a finite measurable lifetime
+    • "Reference Types"
+        ○ Live and die in the (managed) heap
+            - Must be freed from heap, automatically handled in some langauges.
+            - Also stored in stack, but as a memory location that corresponds to heap
+            - Each reference has its own stack than can handle its own values.
+                □ Ex: The balance in the account class is stored in an internal stack within the heap
+            - Ex: C you must handle this manually
+        ○ They are defined in C by creating classes
+        ○ Reference types have a non-deterministic lifetime
+    • Note: We have other keywords to create types
+        ○ Enum creates a type, but at the CLR level, it’s a value type of just integers
+        ○ Records are newish, and they are  used to create classes or structs
+    • Passing to Methods/Function
+        ○ When passing, a copy is made and a value type cannot be edited in the function
+        ○ When passing a reference, it can be changed directly
+
+Stacks and Heaps
+    • Stack has three columns: Type, identifier, value
+        ○ Stacks store values
+    • Heaps are stored in memory
+    • References are in heap, and must be freed. This is automatically handled in some languages.
+        ○ References are also stored in stack, but as a memory location that corresponds to heap
+    • Each reference has its own stack than can handle its own values.
+        □ Ex: The balance in the account class is stored in an internal stack within the heap
+    • Anything Assigned on the Stack cannot have type null
+
+Databases
+    • Relational
+        □ Great for highly transactional systems (lots of writes)
+            § Can also be great for reading
+        □ Data is arranged in "relations"
+            § Rows and Columns
+        □ You must design and create tables before you can use the database
+        □ Examples: SQL Server, Oracle, MySQL, Postgres, DB2
+    • NoSql (Object Db)
+        □ Schema free
+        □ Not relations: Can store hierarchies of data
+        □ Examples: MongoDb, Postgres (Open Source), SQL Server?
+    • Key-Value Stores
+        □ Examples: Redis, etcd, cockroachdb
